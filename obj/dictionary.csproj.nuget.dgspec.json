@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/metts/WorkSpace-BackEnd/dictionary-of-words/dictionary.csproj": {}
+  },
+  "projects": {
+    "/Users/metts/WorkSpace-BackEnd/dictionary-of-words/dictionary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/metts/WorkSpace-BackEnd/dictionary-of-words/dictionary.csproj",
+        "projectName": "dictionary",
+        "projectPath": "/Users/metts/WorkSpace-BackEnd/dictionary-of-words/dictionary.csproj",
+        "packagesPath": "/Users/metts/.nuget/packages/",
+        "outputPath": "/Users/metts/WorkSpace-BackEnd/dictionary-of-words/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/metts/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
